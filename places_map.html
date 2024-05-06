@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_52a87f5b1fb2532437c33ff5b37947ec {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_52a87f5b1fb2532437c33ff5b37947ec" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_52a87f5b1fb2532437c33ff5b37947ec = L.map(
+                "map_52a87f5b1fb2532437c33ff5b37947ec",
+                {
+                    center: [50.839169895, 4.373225005000001],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d8825ed7c2102316b6affb9d2a115c6a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d8825ed7c2102316b6affb9d2a115c6a.addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+            var circle_37f41ee81ce033964fc593da1e912f10 = L.circle(
+                [50.8288067, 4.371711099999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.949539720422775, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_ee8b8a1592c0fbe43b1a4b0f90f7ea16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4d3e63aa6185ef99c3f131e9850f47f = $(`<div id="html_e4d3e63aa6185ef99c3f131e9850f47f" style="width: 100.0%; height: 100.0%;">Lecomte - Mountaineering and Hiking Ixelles: 698 ratings</div>`)[0];
+                popup_ee8b8a1592c0fbe43b1a4b0f90f7ea16.setContent(html_e4d3e63aa6185ef99c3f131e9850f47f);
+            
+        
+
+        circle_37f41ee81ce033964fc593da1e912f10.bindPopup(popup_ee8b8a1592c0fbe43b1a4b0f90f7ea16)
+        ;
+
+        
+    
+    
+            var circle_c479964168fcb55f5dd50cf2a4558de4 = L.circle(
+                [50.841393, 4.390483300000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 300.0, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_f7ae981d913f823376bc21407e9f4537 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2266e22bc56667e11355fa08dd2cf195 = $(`<div id="html_2266e22bc56667e11355fa08dd2cf195" style="width: 100.0%; height: 100.0%;">Parc du Cinquantenaire: 35196 ratings</div>`)[0];
+                popup_f7ae981d913f823376bc21407e9f4537.setContent(html_2266e22bc56667e11355fa08dd2cf195);
+            
+        
+
+        circle_c479964168fcb55f5dd50cf2a4558de4.bindPopup(popup_f7ae981d913f823376bc21407e9f4537)
+        ;
+
+        
+    
+    
+            var circle_dee623bdccdc45e74f38988d21aa64be = L.circle(
+                [50.8454323, 4.364190099999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 163.75724514149334, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_4b64c3ff0a7c1100e11bdda5c1b97402 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_567f7aa74573e7be7c4594d2e1335e83 = $(`<div id="html_567f7aa74573e7be7c4594d2e1335e83" style="width: 100.0%; height: 100.0%;">Parc de Bruxelles: 19212 ratings</div>`)[0];
+                popup_4b64c3ff0a7c1100e11bdda5c1b97402.setContent(html_567f7aa74573e7be7c4594d2e1335e83);
+            
+        
+
+        circle_dee623bdccdc45e74f38988d21aa64be.bindPopup(popup_4b64c3ff0a7c1100e11bdda5c1b97402)
+        ;
+
+        
+    
+    
+            var circle_cadba1221c8503532e5bbe878970fba3 = L.circle(
+                [50.8395691, 4.3565988],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.489942038868055, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_8f4dbe6fb1165c249360366919d93a6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27021d44c69c4b36b3239c49874e2f92 = $(`<div id="html_27021d44c69c4b36b3239c49874e2f92" style="width: 100.0%; height: 100.0%;">Square of Petit Sablon: 1348 ratings</div>`)[0];
+                popup_8f4dbe6fb1165c249360366919d93a6a.setContent(html_27021d44c69c4b36b3239c49874e2f92);
+            
+        
+
+        circle_cadba1221c8503532e5bbe878970fba3.bindPopup(popup_8f4dbe6fb1165c249360366919d93a6a)
+        ;
+
+        
+    
+    
+            var circle_51c54040636bd91674f68176158fadb9 = L.circle(
+                [50.8361467, 4.3571111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.308557790658028, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_21d7b44b59733c57b5346d1707e7f07c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a307aeb1f1b0df73a69a392908e00aa0 = $(`<div id="html_a307aeb1f1b0df73a69a392908e00aa0" style="width: 100.0%; height: 100.0%;">Le Louise Hotel Brussels - MGallery Collection: 1796 ratings</div>`)[0];
+                popup_21d7b44b59733c57b5346d1707e7f07c.setContent(html_a307aeb1f1b0df73a69a392908e00aa0);
+            
+        
+
+        circle_51c54040636bd91674f68176158fadb9.bindPopup(popup_21d7b44b59733c57b5346d1707e7f07c)
+        ;
+
+        
+    
+    
+            var circle_f0261f09ee97ea9ae59fc20860cb3988 = L.circle(
+                [50.84355839999999, 4.375347299999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_c84f2d29822b3e5755bcc7464c775298 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1c1a551f2c9d257746b458af7cada38 = $(`<div id="html_b1c1a551f2c9d257746b458af7cada38" style="width: 100.0%; height: 100.0%;">Rod Welson: 0 ratings</div>`)[0];
+                popup_c84f2d29822b3e5755bcc7464c775298.setContent(html_b1c1a551f2c9d257746b458af7cada38);
+            
+        
+
+        circle_f0261f09ee97ea9ae59fc20860cb3988.bindPopup(popup_c84f2d29822b3e5755bcc7464c775298)
+        ;
+
+        
+    
+    
+            var circle_b4ce3e1505876ff6b3184da89f021391 = L.circle(
+                [50.8339276, 4.3795227],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.02557108762359359, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_1e8c9e779bc0355dce4e7fe4e4f8a82b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3585a6f1550616b20b4200beb6768497 = $(`<div id="html_3585a6f1550616b20b4200beb6768497" style="width: 100.0%; height: 100.0%;">collectif Gray Moineaux Garden: 3 ratings</div>`)[0];
+                popup_1e8c9e779bc0355dce4e7fe4e4f8a82b.setContent(html_3585a6f1550616b20b4200beb6768497);
+            
+        
+
+        circle_b4ce3e1505876ff6b3184da89f021391.bindPopup(popup_1e8c9e779bc0355dce4e7fe4e4f8a82b)
+        ;
+
+        
+    
+    
+            var circle_2e36e2024754a27f81c3f19326deec64 = L.circle(
+                [50.8377957, 4.356373199999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.665871121718379, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_d33d286782960272b34d177ec327d80f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fd2261718f4a18c9af6406d257d04b0 = $(`<div id="html_4fd2261718f4a18c9af6406d257d04b0" style="width: 100.0%; height: 100.0%;">Egmont Park: 1134 ratings</div>`)[0];
+                popup_d33d286782960272b34d177ec327d80f.setContent(html_4fd2261718f4a18c9af6406d257d04b0);
+            
+        
+
+        circle_2e36e2024754a27f81c3f19326deec64.bindPopup(popup_d33d286782960272b34d177ec327d80f)
+        ;
+
+        
+    
+    
+            var circle_ae53a76ce80b6b918510cdc299cad5d4 = L.circle(
+                [50.84034859999999, 4.367748799999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_612a1752ad044ec7e2ee2f7192ab45ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ffe8bbc59c5c69067a4acf3d1c5f9c9 = $(`<div id="html_5ffe8bbc59c5c69067a4acf3d1c5f9c9" style="width: 100.0%; height: 100.0%;">Wandelweg Deerlijk: 0 ratings</div>`)[0];
+                popup_612a1752ad044ec7e2ee2f7192ab45ce.setContent(html_5ffe8bbc59c5c69067a4acf3d1c5f9c9);
+            
+        
+
+        circle_ae53a76ce80b6b918510cdc299cad5d4.bindPopup(popup_612a1752ad044ec7e2ee2f7192ab45ce)
+        ;
+
+        
+    
+    
+            var circle_20b466b1097160892a5f364857eef648 = L.circle(
+                [50.8455382, 4.367861099999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_d5b117d863ef4c7a24d1d99675d71e20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e71de1c58e6bbd44cc57a23c57fc1d4 = $(`<div id="html_7e71de1c58e6bbd44cc57a23c57fc1d4" style="width: 100.0%; height: 100.0%;">Regent Park: 0 ratings</div>`)[0];
+                popup_d5b117d863ef4c7a24d1d99675d71e20.setContent(html_7e71de1c58e6bbd44cc57a23c57fc1d4);
+            
+        
+
+        circle_20b466b1097160892a5f364857eef648.bindPopup(popup_d5b117d863ef4c7a24d1d99675d71e20)
+        ;
+
+        
+    
+    
+            var circle_182bcfd921e9ac9eed7de31bbc6729a4 = L.circle(
+                [50.83874549999999, 4.3802726],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 48.21002386634845, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_d60b1657200805077f5d392960f2894e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5f6d88d3e86956b60099420e6bbc75d = $(`<div id="html_e5f6d88d3e86956b60099420e6bbc75d" style="width: 100.0%; height: 100.0%;">Leopold Park: 5656 ratings</div>`)[0];
+                popup_d60b1657200805077f5d392960f2894e.setContent(html_e5f6d88d3e86956b60099420e6bbc75d);
+            
+        
+
+        circle_182bcfd921e9ac9eed7de31bbc6729a4.bindPopup(popup_d60b1657200805077f5d392960f2894e)
+        ;
+
+        
+    
+    
+            var circle_931520574bf3298c8f8f42ab31e3c5bb = L.circle(
+                [50.826045, 4.3813616],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.6733719740879646, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_ae9955242ebd2e327c04bda6c29c774f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2aee3ab44db09cca0b0473f9b2511e28 = $(`<div id="html_2aee3ab44db09cca0b0473f9b2511e28" style="width: 100.0%; height: 100.0%;">Parc Albert II: 79 ratings</div>`)[0];
+                popup_ae9955242ebd2e327c04bda6c29c774f.setContent(html_2aee3ab44db09cca0b0473f9b2511e28);
+            
+        
+
+        circle_931520574bf3298c8f8f42ab31e3c5bb.bindPopup(popup_ae9955242ebd2e327c04bda6c29c774f)
+        ;
+
+        
+    
+    
+            var circle_9d0ed9e5dea11827c6e0b692acdb9016 = L.circle(
+                [50.8454609, 4.357445],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.856120013637913, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_ab77cbf9b55ce2c9ad473250b5e213cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04cf260de45bdf008748019c55c4512f = $(`<div id="html_04cf260de45bdf008748019c55c4512f" style="width: 100.0%; height: 100.0%;">MOA Paris: 1039 ratings</div>`)[0];
+                popup_ab77cbf9b55ce2c9ad473250b5e213cd.setContent(html_04cf260de45bdf008748019c55c4512f);
+            
+        
+
+        circle_9d0ed9e5dea11827c6e0b692acdb9016.bindPopup(popup_ab77cbf9b55ce2c9ad473250b5e213cd)
+        ;
+
+        
+    
+    
+            var circle_883ec8a826c809a6ea55f1fa56aa1553 = L.circle(
+                [50.8469753, 4.383535],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29.295942720763723, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_93fbb013ecbf658b2e25094b5ee686b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6441067d136e1679772378886b1ab91c = $(`<div id="html_6441067d136e1679772378886b1ab91c" style="width: 100.0%; height: 100.0%;">Ambiorix Square: 3437 ratings</div>`)[0];
+                popup_93fbb013ecbf658b2e25094b5ee686b2.setContent(html_6441067d136e1679772378886b1ab91c);
+            
+        
+
+        circle_883ec8a826c809a6ea55f1fa56aa1553.bindPopup(popup_93fbb013ecbf658b2e25094b5ee686b2)
+        ;
+
+        
+    
+    
+            var circle_a81615212ef11c74f375c192ec7049f0 = L.circle(
+                [50.84684519999999, 4.3800604],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.393112853733378, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_e3a8be788179e397518b55edf7f2972f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2295f499c9b1fce8f731c4905c92074e = $(`<div id="html_2295f499c9b1fce8f731c4905c92074e" style="width: 100.0%; height: 100.0%;">Marie Louise Square: 1102 ratings</div>`)[0];
+                popup_e3a8be788179e397518b55edf7f2972f.setContent(html_2295f499c9b1fce8f731c4905c92074e);
+            
+        
+
+        circle_a81615212ef11c74f375c192ec7049f0.bindPopup(popup_e3a8be788179e397518b55edf7f2972f)
+        ;
+
+        
+    
+    
+            var circle_2443a55d01a8715e50849e2c1adda4f0 = L.circle(
+                [50.8344506, 4.385954399999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.20218206614388, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_fb9d97286d6fad40b61e1c8ece5817b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23ecba13f5f2ba9baad19f7cc8d3a725 = $(`<div id="html_23ecba13f5f2ba9baad19f7cc8d3a725" style="width: 100.0%; height: 100.0%;">Jean-Félix Hap Park: 493 ratings</div>`)[0];
+                popup_fb9d97286d6fad40b61e1c8ece5817b2.setContent(html_23ecba13f5f2ba9baad19f7cc8d3a725);
+            
+        
+
+        circle_2443a55d01a8715e50849e2c1adda4f0.bindPopup(popup_fb9d97286d6fad40b61e1c8ece5817b2)
+        ;
+
+        
+    
+    
+            var circle_055d78a549d9d047c68174aaeff101ef = L.circle(
+                [50.83456810000001, 4.374311700000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.702011592226389, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_1f6ef0192b00e2172676e109575cd7fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb7dc9fb98565311e9b560c1b518e09b = $(`<div id="html_fb7dc9fb98565311e9b560c1b518e09b" style="width: 100.0%; height: 100.0%;">Parc du Viaduc: 317 ratings</div>`)[0];
+                popup_1f6ef0192b00e2172676e109575cd7fe.setContent(html_fb7dc9fb98565311e9b560c1b518e09b);
+            
+        
+
+        circle_055d78a549d9d047c68174aaeff101ef.bindPopup(popup_1f6ef0192b00e2172676e109575cd7fe)
+        ;
+
+        
+    
+    
+            var circle_4eacef74082aceb731805c00643d4b5b = L.circle(
+                [50.8374707, 4.375482499999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.39209001022843504, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_7096b7dca91e494b11b6d030bd5404ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6cb6064588e41da44544352b253e3a1 = $(`<div id="html_b6cb6064588e41da44544352b253e3a1" style="width: 100.0%; height: 100.0%;">Citizens Garden: 46 ratings</div>`)[0];
+                popup_7096b7dca91e494b11b6d030bd5404ab.setContent(html_b6cb6064588e41da44544352b253e3a1);
+            
+        
+
+        circle_4eacef74082aceb731805c00643d4b5b.bindPopup(popup_7096b7dca91e494b11b6d030bd5404ab)
+        ;
+
+        
+    
+    
+            var circle_33ccbc96c994bbe8d2eb823a5c74fbef = L.circle(
+                [50.839746, 4.379599100000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.06818956699624958, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_f4c51dcf6a58b30226c667e0de2df0b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d4aa61dbcad42b602aa092322c52bf2 = $(`<div id="html_9d4aa61dbcad42b602aa092322c52bf2" style="width: 100.0%; height: 100.0%;">Allée Yitzhak Rabin: 8 ratings</div>`)[0];
+                popup_f4c51dcf6a58b30226c667e0de2df0b3.setContent(html_9d4aa61dbcad42b602aa092322c52bf2);
+            
+        
+
+        circle_33ccbc96c994bbe8d2eb823a5c74fbef.bindPopup(popup_f4c51dcf6a58b30226c667e0de2df0b3)
+        ;
+
+        
+    
+    
+            var circle_5c9c61689aef8051b912927efc7806aa = L.circle(
+                [50.84057430000001, 4.3795303],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.02557108762359359, "stroke": true, "weight": 3}
+            ).addTo(map_52a87f5b1fb2532437c33ff5b37947ec);
+        
+    
+        var popup_e30216f2474dbf08426401acbfb36cf1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abeea49a9c47ea237e6c26ac074e0e8b = $(`<div id="html_abeea49a9c47ea237e6c26ac074e0e8b" style="width: 100.0%; height: 100.0%;">Place Jean Rey Plein: 3 ratings</div>`)[0];
+                popup_e30216f2474dbf08426401acbfb36cf1.setContent(html_abeea49a9c47ea237e6c26ac074e0e8b);
+            
+        
+
+        circle_5c9c61689aef8051b912927efc7806aa.bindPopup(popup_e30216f2474dbf08426401acbfb36cf1)
+        ;
+
+        
+    
+</script>
+</html>
